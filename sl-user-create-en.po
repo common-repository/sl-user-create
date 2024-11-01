@@ -1,0 +1,402 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sl-user-create\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-11 02:28-0000\n"
+"PO-Revision-Date: 2013-10-11 02:28-0000\n"
+"Last-Translator: Gwyneth Llewelyn <gwyneth.llewelyn@gwynethllewelyn.net>\n"
+"Language-Team: Gwyneth Llewelyn <gwyneth.llewelyn@gwynethllewelyn.net>\n"
+"Language: en_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: register-avatar.php:46 register-avatar.php:67 register-object.php:44
+#: register-object.php:156
+msgid "HTTP/1.0 405 Method Not Allowed"
+msgstr ""
+
+#: register-avatar.php:48 register-object.php:46
+msgid "Request has to come from Second Life"
+msgstr ""
+
+#: register-avatar.php:61 register-object.php:59
+msgid "Invalid signature"
+msgstr ""
+
+#: register-avatar.php:69
+msgid "Registration requires a valid avatar name and key"
+msgstr ""
+
+#: register-avatar.php:81 register-object.php:72
+#, php-format
+msgid "%s not allowed to register objects with %s"
+msgstr ""
+
+#: register-avatar.php:93
+#, php-format
+msgid "%s banned from %s"
+msgstr ""
+
+#: register-avatar.php:137
+#, php-format
+msgid "Host %s (%s) is not allowed to register %s with %s"
+msgstr ""
+
+#: register-avatar.php:143
+msgid "HTTP/1.0 404 Function Not Found"
+msgstr ""
+
+#: register-avatar.php:145
+msgid "username_exists not found"
+msgstr ""
+
+#: register-avatar.php:157
+msgid "HTTP/1.0 404 Not found"
+msgstr ""
+
+#: register-avatar.php:159
+msgid "This object has never been registered to this WordPress site before!"
+msgstr ""
+
+#: register-avatar.php:160
+#, php-format
+msgid "Please contact the owner of %s"
+msgstr ""
+
+#: register-avatar.php:210
+#, php-format
+msgid ""
+"Registration to %s failed. Could not create a valid WP username out of your "
+"avatar name"
+msgstr ""
+
+#: register-avatar.php:223
+#, php-format
+msgid "Registered via \"%s (%s)\" (Shard: %s) - Object name: %s"
+msgstr ""
+
+#: register-avatar.php:231
+#, php-format
+msgid "Registration to %s failed. Error: %s"
+msgstr ""
+
+#: register-avatar.php:240
+#, php-format
+msgid ""
+"Registration on %s successful! Your login is %s (user id %d) with password %s"
+msgstr ""
+
+#: register-avatar.php:262
+#, php-format
+msgid ""
+"Password reset on %s successful! Your login is %s (user id %d) with password "
+"%s"
+msgstr ""
+
+#: register-object.php:116
+#, php-format
+msgid "Host %s (%s) is not allowed to register objects with %s"
+msgstr ""
+
+#: register-object.php:152
+#, php-format
+msgid "PermURL <%s> saved for object '%s' (%s)"
+msgstr ""
+
+#: register-object.php:157
+msgid "No PermURL specified on registration"
+msgstr ""
+
+#: sl-user-create.php:53 sl-user-create.php:292
+msgid "Script"
+msgstr ""
+
+#: sl-user-create.php:54
+msgid "Objects"
+msgstr ""
+
+#: sl-user-create.php:55 sl-user-create.php:301
+msgid "Security"
+msgstr ""
+
+#: sl-user-create.php:56 sl-user-create.php:309
+msgid "Instructions"
+msgstr ""
+
+#: sl-user-create.php:86 sl-user-create.php:104 sl-user-create.php:398
+#: sl-user-create.php:405
+msgid "SL User Create"
+msgstr ""
+
+#: sl-user-create.php:96
+msgid "No access."
+msgstr ""
+
+#: sl-user-create.php:132
+msgid "Deleting registration object: "
+msgstr ""
+
+#: sl-user-create.php:134
+msgid "Owned by "
+msgstr ""
+
+#: sl-user-create.php:135
+msgid "Location: "
+msgstr ""
+
+#: sl-user-create.php:139
+msgid "Sending llDie() to registration object: "
+msgstr ""
+
+#: sl-user-create.php:155
+msgid "OK"
+msgstr ""
+
+#: sl-user-create.php:160 sl-user-create.php:165
+msgid "Failed"
+msgstr ""
+
+#: sl-user-create.php:175
+msgid "<strong>Not saved!!</strong><br \\>\n"
+msgstr ""
+
+#: sl-user-create.php:181
+msgid "Online registration objects <strong>deleted</strong>"
+msgstr ""
+
+#: sl-user-create.php:190
+msgid "Current registration objects being tracked"
+msgstr ""
+
+#: sl-user-create.php:197
+msgid "Object Name"
+msgstr ""
+
+#: sl-user-create.php:198
+msgid "Object Key"
+msgstr ""
+
+#: sl-user-create.php:199
+msgid "Object Version"
+msgstr ""
+
+#: sl-user-create.php:200
+msgid "Location"
+msgstr ""
+
+#: sl-user-create.php:201
+msgid "PermURL"
+msgstr ""
+
+#: sl-user-create.php:202
+msgid "Avatar Owner Name"
+msgstr ""
+
+#: sl-user-create.php:203
+msgid "Avatar Owner Key"
+msgstr ""
+
+#: sl-user-create.php:204
+msgid "# avatars registered"
+msgstr ""
+
+#: sl-user-create.php:205
+msgid "Last time checked"
+msgstr ""
+
+#: sl-user-create.php:206
+msgid "Del?"
+msgstr ""
+
+#: sl-user-create.php:228
+msgid "Registration object for "
+msgstr ""
+
+#: sl-user-create.php:238
+msgid "Y M j H:i:s"
+msgstr ""
+
+#: sl-user-create.php:246
+msgid "Delete"
+msgstr ""
+
+#: sl-user-create.php:255
+msgid "No registration objects are being tracked."
+msgstr ""
+
+#: sl-user-create.php:264 sl-user-create.php:269
+msgid "Save Settings"
+msgstr ""
+
+#: sl-user-create.php:280
+msgid "Error"
+msgstr ""
+
+#: sl-user-create.php:282
+msgid "This page should have never been displayed!"
+msgstr ""
+
+#: sl-user-create.php:293
+msgid "LSL Script"
+msgstr ""
+
+#: sl-user-create.php:302 sl-user-create.php:413
+msgid "Secret string"
+msgstr ""
+
+#: sl-user-create.php:303
+msgid "Secret number"
+msgstr ""
+
+#: sl-user-create.php:304
+msgid "Disable Signature"
+msgstr ""
+
+#: sl-user-create.php:305
+msgid "Allowed avatars (for registration objects)"
+msgstr ""
+
+#: sl-user-create.php:306
+msgid "Banned avatars (from registering to the site)"
+msgstr ""
+
+#: sl-user-create.php:306
+msgid "Allowed simulator DNS entries"
+msgstr ""
+
+#: sl-user-create.php:398
+msgid "Script for "
+msgstr ""
+
+#: sl-user-create.php:405
+msgid "Security options for "
+msgstr ""
+
+#: sl-user-create.php:419
+msgid "4-digit secret salt"
+msgstr ""
+
+#: sl-user-create.php:428
+msgid "Disable signature check (less secure!)"
+msgstr ""
+
+#: sl-user-create.php:439
+msgid ""
+"Add avatar names allowed to use this script (empty means all are allowed), "
+"one per line"
+msgstr ""
+
+#: sl-user-create.php:450
+msgid ""
+"Add avatar names banned from this site (empty means all are allowed), one "
+"per line"
+msgstr ""
+
+#: sl-user-create.php:461
+msgid ""
+"Add simulator DNS entries allowed to use this script (empty means all are "
+"allowed); partial entries are allowed, i. e. secondlife.com to allow "
+"registrations only from the SL Grid"
+msgstr ""
+
+#: sl-user-create.php:466
+msgid ""
+"Please create an object in Second Life on a plot owned by you, and drop the "
+"following script inside:"
+msgstr ""
+
+#: sl-user-create.php:648
+msgid ""
+"Need to automatically register new users on a WordPress site with their "
+"Second Life® avatar names? This plugin allows you to do so, by exhibiting a "
+"script that you can copy and place into an in-world object. Users just need "
+"to touch the object to get automatically registered; if they are already "
+"registered, they will just get a link to your site."
+msgstr ""
+
+#: sl-user-create.php:650
+msgid ""
+"New users will receive a password via the Second Life Instant Messaging "
+"Service, as well as a link to tell them the URL for your site. The new "
+"profile will include their avatar name as a login and their SL profile "
+"picture (if available via Web) will become their WordPress profile picture. "
+"If you have some special meta fields enabled on your WordPress profile, they "
+"will be filled in with some data from SL as well (e.g. location)."
+msgstr ""
+
+#: sl-user-create.php:652
+msgid ""
+"After installing the plugin, if you're using a cache manager (e.g. W3 Total "
+"Cache) make sure you add <strong>register-avatar.php</strong> and "
+"<strong>register-object.php</strong> to the exception list, or you'll get "
+"multiple registrations with the same name!"
+msgstr ""
+
+#: sl-user-create.php:654
+msgid ""
+"Go to the Settings menu and look at the option for \"SL User Create\". You "
+"should be shown a pre-formatted LSL script."
+msgstr ""
+
+#: sl-user-create.php:656
+msgid "Launch Second Life."
+msgstr ""
+
+#: sl-user-create.php:658
+msgid "Create an object in your land. Make sure that scripts are active!"
+msgstr ""
+
+#: sl-user-create.php:660
+msgid ""
+"Right-click to open the object's Build popup, and go to the Contents tab."
+msgstr ""
+
+#: sl-user-create.php:662
+msgid "Create a new script inside (just click on the button)."
+msgstr ""
+
+#: sl-user-create.php:664
+msgid "Delete everything in that script."
+msgstr ""
+
+#: sl-user-create.php:666
+msgid ""
+"Now go back to the WordPress admin page you've opened, and copy the script "
+"and paste it inside your LSL script in Second Life."
+msgstr ""
+
+#: sl-user-create.php:668
+msgid "Save the LSL script in Second Life; it should recompile."
+msgstr ""
+
+#: sl-user-create.php:670
+msgid "The LSL script will now try to contact your blog and register itself."
+msgstr ""
+
+#: sl-user-create.php:672
+msgid ""
+"Now any avatar wishing to register for their blog will only need to touch "
+"this object and get immediately registered. You can have multiple objects, "
+"on several sims, even on different grids, and owned by different users."
+msgstr ""
+
+#: sl-user-create.php:674
+msgid ""
+"Avatar names have to be unique across your blog, which means that the same "
+"user cannot register from different grids with the same name (but they can "
+"change the password if they forgot it, and don't need to log in back to "
+"their original grid)."
+msgstr ""
+
+#: sl-user-create.php:676
+msgid ""
+"From 0.2.0 onwards there is a security page which allows a few options to "
+"limit access from potential hackers."
+msgstr ""
